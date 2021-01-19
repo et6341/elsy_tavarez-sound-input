@@ -1,3 +1,7 @@
 while True:
-    input.sound_level() > 5
-    music.play_melody("E B C5 A B G A F", 120)
+    music.set_volume(40)
+    if input.light_level() < 6:
+        music.wawawawaa.play_until_done()
+    else:
+        music.magic_wand.play_until_done()
+
